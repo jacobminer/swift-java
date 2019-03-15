@@ -12,7 +12,7 @@ let package = Package(
     ],
     dependencies: [
         // TODO: remove coder and java_swift dependencies
-        .package(url: "https://github.com/jacobminer/swift-java-coder.git", .upToNextMinor(from: "1.0.7")),
+        .package(url: "https://github.com/jacobminer/swift-java-coder.git", .upToNextMinor(from: "1.0.6")),
         .package(url: "https://github.com/readdle/java_swift.git", .exact("2.1.3")),
     ],
     targets: [
